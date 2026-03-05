@@ -1,0 +1,17 @@
+name: sound_bit
+description: Music Player Retro
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.36
+  on_audio_query: ^2.5.0
+  permission_handler: ^11.0.0
+
+flutter:
+  uses-material-design: true
